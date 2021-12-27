@@ -1,0 +1,55 @@
+ul li{
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+
+    
+body
+{
+    background-color: #777;
+    padding: 10px 20px;
+}
+
+nav.menu-nav ul li a{
+    color: rgb(5, 5, 233);
+    position: fixed;
+
+}
+
+a{
+    text-decoration: none;
+}
+ul li a{
+background-color: rgb(207, 207, 214);
+padding: 12px;
+font-size: 20px;
+}
+
+ul li:hover a{
+color: blue;
+background-color: white;
+transition: 0.3s all;
+}
+
+header{
+   background-color: black;
+}
+
+
+
+
+menu{
+    position :sticky;
+ }
+
+@media (min-width: 680px) and (max-width: 959px) {
+
+}
+
+h1 welcom{
+    font-size: 5px;
+}
